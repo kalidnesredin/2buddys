@@ -183,7 +183,7 @@ header ul li a.active{
     }
     .cont .content2{
         transform: translateX(0px);
-        width: 100%;
+        max-width: 100%;
         padding: 30px;
         margin-top: 20px;
     }
@@ -227,6 +227,7 @@ header ul li a.active{
     }
     .content2{
         width: 100%;
+    }
     .imgbox img{
         max-width: 200px;
     }
