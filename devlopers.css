@@ -157,7 +157,7 @@ header ul li a.active{
 @media (max-width: 1200px) {
     .cont{
         position: relative;
-        width: calc(100 - 20px);
+        width: 100%);
     }
 }
 @media (max-width: 992px){
@@ -183,7 +183,7 @@ header ul li a.active{
     }
     .cont .content2{
         transform: translateX(0px);
-        max-width: 100%;
+        width: 100%;
         padding: 30px;
         margin-top: 20px;
     }
@@ -225,6 +225,8 @@ header ul li a.active{
         font-size: 1em;
         color: black;
     }
+    .content2{
+        width: 100%;
     .imgbox img{
         max-width: 200px;
     }
